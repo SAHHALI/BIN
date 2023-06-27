@@ -1,0 +1,402 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.hero {
+  margin: auto;
+  width: 1000px;
+  height: 100vh;
+  background-image: url(../image/binhero.jpg);
+  background-size: cover;
+  background-position: left;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 2%;
+  padding-right: 8%;
+}
+.logo {
+  color: #010101;
+  text-transform: capitalize;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+span {
+  color: #9a4200;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+nav ul li a {
+  color: #010101;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+nav ul li a:hover {
+  color: #9a4200;
+  transition: ease-in-out 0.3s;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  right: 15%;
+  transform: translateY(-50%);
+  line-height: 25px;
+}
+h1.top {
+  color: #9a4200;
+  margin: 20px 0px 20px;
+  font-size: 70px;
+}
+h3 {
+  font: 25px;
+  padding-top: 0;
+}
+h4 {
+  font-size: 20px;
+}
+.about {
+  margin: auto;
+  height: 100vh;
+  width: 1000px;
+  /* background-color: #f1cfb4; */
+  background-image: url(../image/BINABOUT.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 10px;
+}
+h1.us {
+  color: #010101;
+  position: absolute;
+  left: 15%;
+  padding-top: 8%;
+  line-height: 25px;
+}
+p {
+  color: #010101;
+  position: absolute;
+  left: 15%;
+  padding-top: 11%;
+  line-height: 25px;
+  right: 50%;
+}
+
+.member {
+  margin: auto;
+  height: 100vh;
+  width: 1000px;
+  /* background-color: #f1cfb4; */
+  background-image: url(../image/RAlip.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+}
+
+.member::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1000px;
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(238, 198, 172) 3%,
+    rgba(255, 255, 255, 0) 25%
+  );
+}
+.isiM {
+  position: absolute;
+  right: 18%;
+  transform: translateY(-50%);
+  line-height: 25px;
+  padding-top: 30%;
+}
+.alif {
+  color: #9a4200;
+  margin: 20px 0px 20px;
+  font-size: 70px;
+  text-transform: capitalize;
+}
+.andere {
+  margin: auto;
+  height: 120vh;
+  width: 1000px;
+  /* background-color: #f1cfb4; */
+  background-image: url(../image/RAndera.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.andere::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1000px;
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(248, 212, 186) 3%,
+    rgba(255, 255, 255, 0) 25%
+  );
+}
+.isiandere {
+  position: absolute;
+  right: 25%;
+  transform: translateY(-50%);
+  line-height: 25px;
+  padding-top: 50%;
+}
+.dera {
+  color: #9a4200;
+  margin: 20px 0px 20px;
+  font-size: 70px;
+  text-transform: capitalize;
+}
+
+.aul {
+  margin: auto;
+  height: 110vh;
+  width: 1000px;
+  background-image: url(../image/RAul.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.isiaul {
+  padding-top: 200px;
+  padding-left: 200px;
+  line-height: 45px;
+}
+.isiaul h1 {
+  color: #9a4200;
+  font-size: 70px;
+  padding-left: 155px;
+}
+
+.isiaul h4 {
+  padding-left: 265px;
+}
+.isiaul h3 {
+  padding-left: 325px;
+}
+
+.aul::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1000px;
+  height: 50%;
+  background: linear-gradient(
+    0deg,
+    rgba(239, 194, 163) 3%,
+    rgba(255, 255, 255, 0) 25%
+  );
+}
+.bayu {
+  margin: auto;
+  height: 105vh;
+  width: 1000px;
+  background-image: url(../image/RBayu.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.bayu::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1000px;
+  height: 50%;
+  background: linear-gradient(
+    0deg,
+    rgba(243, 206, 177) 3%,
+    rgba(255, 255, 255, 0) 25%
+  );
+}
+.isibayu {
+  padding-top: 200px;
+  padding-left: 70px;
+  line-height: 45px;
+}
+.isibayu h1 {
+  color: #9a4200;
+  font-size: 70px;
+  padding-left: 250px;
+}
+
+.isibayu h4 {
+  padding-left: 325px;
+}
+.isibayu h3 {
+  padding-left: 320px;
+}
+.ferrel {
+  margin: auto;
+  height: 110vh;
+  width: 1000px;
+  background-image: url(../image/RFerrel.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.ferrel::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1000px;
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(237, 205, 182) 3%,
+    rgba(255, 255, 255, 0) 25%
+  );
+}
+.isiferrel {
+  position: absolute;
+  right: 15%;
+  transform: translateY(-50%);
+  line-height: 25px;
+  padding-top: 50%;
+}
+.ferrel1 {
+  color: #9a4200;
+  margin: 20px 0px 20px;
+  font-size: 70px;
+  text-transform: capitalize;
+}
+.ivan {
+  margin: auto;
+  height: 110vh;
+  width: 1000px;
+  background-image: url(../image/RIvan.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.ivan::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1000px;
+  height: 50%;
+  background: linear-gradient(
+    0deg,
+    rgba(243, 204, 173) 3%,
+    rgba(255, 255, 255, 0) 25%
+  );
+}
+.isiivan {
+  padding-top: 200px;
+  padding-left: 40px;
+  line-height: 45px;
+}
+.isiivan h1 {
+  color: #9a4200;
+  font-size: 70px;
+  padding-left: 10px;
+}
+
+.isiivan h4 {
+  padding-left: 200px;
+}
+.isiivan h3 {
+  padding-left: 210px;
+}
+
+.rapli {
+  margin: auto;
+  height: 110vh;
+  width: 1000px;
+  background-image: url(../image/RRapli.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.rapli::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1000px;
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(248, 209, 178) 3%,
+    rgba(255, 255, 255, 0) 25%
+  );
+}
+.isirapli {
+  position: absolute;
+  left: 40%;
+  transform: translateY(-50%);
+  line-height: 25px;
+  padding-top: 50%;
+}
+.rapli1 {
+  color: #9a4200;
+  margin: 20px 0px 20px;
+  font-size: 70px;
+  text-transform: capitalize;
+}
+.dawud {
+  margin: auto;
+  height: 115vh;
+  width: 1000px;
+  background-image: url(../image/RDawud.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.isidawud {
+  position: absolute;
+  left: 40%;
+  transform: translateY(-50%);
+  line-height: 25px;
+  padding-top: 50%;
+}
+.dawud1 {
+  color: #9a4200;
+  margin: 20px 0px 20px;
+  font-size: 70px;
+  text-transform: capitalize;
+}
+
+.basecamp {
+  margin: auto;
+  /* position: absolute; */
+  height: 100vh;
+  width: 1000px;
+  background-color: #f8d1b2;
+  background-position: center;
+  background-size: cover;
+  list-style-type: none;
+}
+
+.basecamp ul li {
+  list-style-type: none;
+}
+.basecamp ul li h1 {
+  margin: auto;
+  /* padding: 10px; */
+  padding-left: 40%;
+}
+.basecamp ul li iframe {
+  margin: auto;
+  padding-top: 20px;
+  width: 1000px;
+}
